@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100%;
+            margin: 0;
+            padding: 10px;
+            background: url(op.jpg);
+            background-position: center;
+        
+        }
+        
+        .navlist{
+           display: flex;
+           
+           justify-content: center;
+           gap: 2cm;
+           
+          
+           align-items: center;
+            text-transform: uppercase;
+            margin-top: 20px; 
+
+            }
+            li{
+           list-style: none;
+           font-size:larger ;
+           
+           color: black;
+            }
+
+            a{
+                text-decoration: none;
+                color: white;
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+            .navlist li a:hover{
+              color: red ;
+            }
+            .left{
+                
+                padding-left: 40px;
+                display: flex;
+                margin-top: 5cm;
+                align-items: center;
+            
+            }
+
+
+            
+            .icon{
+                display: flex;
+                flex-direction:column;
+                justify-content: center;
+                align-items: center;
+                gap: 0.8cm;
+                
+            
+                
+            }
+            .icon ,.fa-brands{
+                font-size: 1.7rem;
+                color: white;
+            }
+            .content{
+                padding-left: 30px;
+                color: antiquewhite;
+            }
+            #big{
+                color: brown;
+                font-size:1.4rem;
+            }
+            span{color:cornsilk}
+            #big2{
+                color: white;
+                font-size: 5rem;
+            }
+            #p1{
+                font-size: 1.1rem;
+                color:#fff;
+                width:38rem ;
+                margin-top: 10px;
+               line-height: 2rem;
+            }
+            .btn{
+               margin-top: 1rem;
+              padding: 1rem;
+              
+              
+            }
+            .btn ,.child1{
+                padding: 0.5rem;
+               color: rgb(209, 20, 61);
+
+            }
+            .btn ,.child{
+                padding: 0.5rem;
+                margin-left: 1.4rem;
+                color:rgb(223, 18, 103) ;
+            }
+            .btn ,.child1:hover{
+               
+            }
+            .image{height: 10%;
+
+                position: absolute;
+                margin-left:18cm; 
+                margin-top: -9cm;
+                border-radius: 25%;
+            }
+            .imag1{
+                  height: 330px;
+                  border-radius: 50%;
+                  border: 8px solid rgb(240, 244, 244) ;
+                  box-shadow: 0 0 5rem #0ab9b9 ,
+                  inset 0 0 4rem black,
+                  0 0 3rem #383838 ,
+                  inset 0 0 4rem rgb(174, 11, 128),
+                  0 0 3rem #383838 ;
+
+
+                 
+                  
+                  
+                  
+            }
+           
+            
+             
+             
+           
+    </style>
+</head>
+<body >
+    <div clas="navbar">
+        <ul class="navlist">
+            <li><a href="#">home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">experience</a></li>
+            <li><a href="#">skill</a></li>
+         </ul>
+        
+         <div class="left">
+            <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+         </div>
+         
+         <div class="content">
+            <h2 id="big">Hi am <span>RJ Kadam</span></span></h2>
+            <h1 id="big2">Web Devloper..</h1>
+            <p id="p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius quidem labore dolorem aliquid a, reprehenderit ipsa, placeat odit quas cum rem consequatur qui cupiditate repudiandae exercitationem esse nisi. Rem, numquam?</p>
+        
+           <div class="button">
+            <div class="btn">
+            <button  class="child1">Hire me</button>
+            <button class="child">view project</button>
+        </div>
+        <div class="image">
+            <img src="raj.jpg" alt="" class="imag1">
+           </div>
+        </div>
+    </div>
+    
+</body>
+</html>
